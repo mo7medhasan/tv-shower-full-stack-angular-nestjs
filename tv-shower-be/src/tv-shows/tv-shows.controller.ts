@@ -4,6 +4,7 @@ import { CreateTvShowDto } from './dto/create-tv-show.dto';
 import { UpdateTvShowDto } from './dto/update-tv-show.dto';
 
 @Controller('tv-shows')
+
 export class TvShowsController {
   constructor(private readonly tvShowsService: TvShowsService) {}
 

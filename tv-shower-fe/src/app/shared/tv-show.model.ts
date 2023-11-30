@@ -1,4 +1,4 @@
-export class TvShow {
+export interface TvShow {
   id: number;
   title: string;
   coverImageUrl: string;
